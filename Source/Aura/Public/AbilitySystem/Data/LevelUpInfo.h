@@ -33,5 +33,5 @@ public:
 	UPROPERTY(EditDefaultsOnly)
 	TArray<FAuraLevelUpInfo> LevelUpInformation;	//这个数组的 index就是 level, 数组第一条数据是占位用的
 
-	int32 FindLevelForXP(int32 XP);
+	int32 FindLevelForXP(int32 XP) const;
 };
